@@ -38,7 +38,7 @@ namespace ProjetoWebApi.Controllers
            }
            return Ok(projeto);
         } 
-
+        
         [HttpPut("{id}")] 
         public IActionResult Atualizar(int id, Projeto projeto)
         {

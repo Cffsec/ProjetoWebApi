@@ -16,7 +16,7 @@ namespace ProjetoWebApi.Repositories
 
         public Usuario Login(string email, string password)
         {
-            return _context.Usuarios.FirstOrDefault(u => u.Senha == email && u.Senha == password);
+            return _context.Usuarios.FirstOrDefault(u => u.Email == email && u.Senha == password);
         }
 
         public List<Usuario> Listar()
