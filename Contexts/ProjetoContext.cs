@@ -17,7 +17,7 @@ namespace ProjetoWebApi.Contexts
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("User ID=sa;Password=testando202122;Server=4OUR7EVEN\\SQLEXPRESS;Database=ExoApi;Trusted_Connection=False;");
+                optionsBuilder.UseSqlServer("User ID=???????;Password=?????????????;Server=???????\\SQLEXPRESS;Database=ExoApi;Trusted_Connection=False;");
             }
         }
 
